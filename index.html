@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Srinithi P — Full Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Clash+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="cursor-glow"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">SP<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:srinithiperiyasamy007@gmail.com" class="nav-cta">Hire Me →</a>
+    <!-- Custom pill menu toggle -->
+    <button class="menu-btn" id="menu-btn" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="mb-icon">
+        <span></span><span></span><span></span>
+      </span>
+      <span class="mb-label">Menu</span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile drawer -->
+<div class="mobile-drawer" id="mobile-drawer">
+  <a href="#about" class="drawer-link">About</a>
+  <a href="#skills" class="drawer-link">Skills</a>
+  <a href="#projects" class="drawer-link">Projects</a>
+  <a href="#experience" class="drawer-link">Experience</a>
+  <a href="#contact" class="drawer-link">Contact</a>
+  <a href="mailto:srinithiperiyasamy007@gmail.com" class="drawer-hire">Hire Me →</a>
+</div>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg-text">SRINITHI</div>
+  <div class="tech-orbs">
+    <div class="torb">Python</div>
+    <div class="torb">Django</div>
+    <div class="torb">React</div>
+    <div class="torb">Flask</div>
+  </div>
+  <div class="hero-wrap">
+    <div class="hero-left">
+      <div class="hero-tag">Available for opportunities</div>
+      <h1 class="hero-name">
+        <span class="hi">Hello, I'm <span class="wave">👋</span></span>
+        Srinithi&nbsp;P
+      </h1>
+      <p class="hero-role">
+        <span class="typed" id="typed"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-copy">B.Sc. Computer Science graduate building clean interfaces, practical APIs, and full-stack web apps — with Java, Python, Django, Flask &amp; React.</p>
+      <div class="hero-btns">
+        <a href="assets/SRINITHI.pdf" class="btn-pri" download="Srinithi_P_Resume.pdf">View Resume</a>
+        <a href="#contact" class="btn-sec">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-right">
+      <img class="hero-profile-img" src="assets/img.jpg" alt="Srinithi P profile image">
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="sec" id="about">
+  <div class="sec-inner">
+    <div class="eyebrow reveal">About Me</div>
+    <h2 class="sec-title reveal">Who am I? <em>Let's talk.</em></h2>
+    <div class="about-grid">
+      <div>
+        <div class="about-copy reveal">
+          <p>I'm a <strong>Full Stack Developer</strong> skilled in Java and Python, with a genuine love for building complete web applications — from a clean UI all the way down to a well-structured database.</p>
+          <p>I've worked hands-on with <strong>Django, Flask, React</strong>, MongoDB and MySQL, building real projects from e-commerce to hospital management systems.</p>
+          <p>I enjoy <strong>UI design, problem solving, and learning by doing</strong>. I'm looking for a role where I can keep growing while delivering real, useful work.</p>
+        </div>
+        <div class="stats-row stag">
+          <div class="stat-box"><strong>4+</strong><span>Projects</span></div>
+          <div class="stat-box"><strong>2025</strong><span>Graduate</span></div>
+          <div class="stat-box"><strong>FSD</strong><span>Certified</span></div>
+          <div class="stat-box"><strong>100%</strong><span>Dedicated</span></div>
+        </div>
+      </div>
+      <div>
+        <div class="skill-bars-wrap stag" id="skill-bars">
+          <div>
+            <div class="sb-label"><span>HTML / CSS / JavaScript</span><span>85%</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:0.85"></div></div>
+          </div>
+          <div>
+            <div class="sb-label"><span>Python / Django / Flask</span><span>75%</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:0.75"></div></div>
+          </div>
+          <div>
+            <div class="sb-label"><span>MongoDB / MySQL</span><span>65%</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:0.65"></div></div>
+          </div>
+          <div>
+            <div class="sb-label"><span>Java / Spring Boot</span><span>53%</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:0.53"></div></div>
+          </div>
+          <div>
+            <div class="sb-label"><span>Figma / UI Design</span><span>45%</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:0.45"></div></div>
+          </div>
+          <div>
+            <div class="sb-label"><span>React / Node.js</span><span>35%</span></div>
+            <div class="sb-track"><div class="sb-fill" style="--w:0.35"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="sec" id="skills">
+  <div class="sec-inner">
+    <div class="eyebrow reveal">Tech Stack</div>
+    <h2 class="sec-title reveal">My <em>Arsenal</em></h2>
+    <div class="skills-mosaic stag">
+      <div class="sk-card"><span class="sk-icon">🌐</span><div class="sk-name">HTML5 &amp; CSS3</div><div class="sk-cat">Frontend</div></div>
+      <div class="sk-card"><span class="sk-icon">⚡</span><div class="sk-name">JavaScript</div><div class="sk-cat">Frontend</div></div>
+      <div class="sk-card"><span class="sk-icon">⚛️</span><div class="sk-name">React</div><div class="sk-cat">Frontend</div></div>
+      <div class="sk-card"><span class="sk-icon">🐍</span><div class="sk-name">Python</div><div class="sk-cat">Backend</div></div>
+      <div class="sk-card"><span class="sk-icon">🎸</span><div class="sk-name">Django</div><div class="sk-cat">Backend</div></div>
+      <div class="sk-card"><span class="sk-icon">🧪</span><div class="sk-name">Flask</div><div class="sk-cat">Backend</div></div>
+      <div class="sk-card"><span class="sk-icon">☕</span><div class="sk-name">Java</div><div class="sk-cat">Backend</div></div>
+      <div class="sk-card"><span class="sk-icon">🍃</span><div class="sk-name">Spring Boot</div><div class="sk-cat">Framework</div></div>
+      <div class="sk-card"><span class="sk-icon">🗄️</span><div class="sk-name">MySQL</div><div class="sk-cat">Database</div></div>
+      <div class="sk-card"><span class="sk-icon">🍃</span><div class="sk-name">MongoDB</div><div class="sk-cat">Database</div></div>
+      <div class="sk-card"><span class="sk-icon">🎨</span><div class="sk-name">Figma</div><div class="sk-cat">Design</div></div>
+      <div class="sk-card"><span class="sk-icon">🚀</span><div class="sk-name">Vercel / GitHub</div><div class="sk-cat">Deployment</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="sec" id="projects">
+  <div class="sec-inner">
+    <div class="eyebrow reveal">Featured Work</div>
+    <h2 class="sec-title reveal">Projects I've <em>Built</em></h2>
+    <div class="projects-grid stag">
+      <div class="proj-card">
+        <div class="proj-year">2025 · E-Commerce</div>
+        <div class="proj-name">Coffee House Website</div>
+        <p class="proj-desc">Responsive e-commerce app with product listings, shopping cart, admin flow, and order checkout — built with Java Servlets and frontend web tech.</p>
+        <div class="proj-techs">
+          <span class="proj-tech">HTML</span><span class="proj-tech">CSS</span><span class="proj-tech">JavaScript</span><span class="proj-tech">Java</span><span class="proj-tech">Servlet</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-year">2025 · Productivity</div>
+        <div class="proj-name">Email Reminder App</div>
+        <p class="proj-desc">Web-based reminder system with CRUD and automated Gmail SMTP notifications. Clean responsive UI backed by Django ORM and SQLite.</p>
+        <div class="proj-techs">
+          <span class="proj-tech">Python</span><span class="proj-tech">Django</span><span class="proj-tech">SQLite</span><span class="proj-tech">SMTP</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-year">2025 · Healthcare</div>
+        <div class="proj-name">Hospital Management System</div>
+        <p class="proj-desc">Role-based system with separate dashboards for Admin, Doctor, and Patient. Appointment booking, CRUD operations, Flask-SQLAlchemy data layer.</p>
+        <div class="proj-techs">
+          <span class="proj-tech">Python</span><span class="proj-tech">Flask</span><span class="proj-tech">SQLAlchemy</span><span class="proj-tech">HTML/CSS</span>
+        </div>
+      </div>
+      <div class="proj-card">
+        <div class="proj-year">2025 · Final Year</div>
+        <div class="proj-name">Slide &amp; Solve Game</div>
+        <p class="proj-desc">Puzzle game to sharpen logical thinking — featuring game logic, user interaction flow, score tracking, and a minimal, engaging UI.</p>
+        <div class="proj-techs">
+          <span class="proj-tech">Python</span><span class="proj-tech">HTML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section class="sec" id="experience">
+  <div class="sec-inner">
+    <div class="eyebrow reveal">My Journey</div>
+    <h2 class="sec-title reveal">Experience &amp; <em>Education</em></h2>
+    <div class="timeline stag">
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Feb 2026 – Aug 2026</div>
+        <div class="tl-card">
+          <h3>Web Developer Intern</h3>
+          <h4>Shree Tech</h4>
+          <p>Built responsive websites using HTML, CSS, and JavaScript — improving UI quality and gaining real-world delivery confidence.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">Jul 2025 – Dec 2025</div>
+        <div class="tl-card">
+          <h3>Full Stack Developer Trainee</h3>
+          <h4>Elysium Academy</h4>
+          <p>Built the Coffee House e-commerce project with cart, checkout, admin flow, and gained practical Java web development experience.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">2022 – 2025</div>
+        <div class="tl-card">
+          <h3>B.Sc. Computer Science</h3>
+          <h4>MSN College, Poovanthi · Alagappa University</h4>
+          <p>Graduated First Class. Built academic projects including Slide &amp; Solve to sharpen logic and full development lifecycle skills.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot"></div>
+        <div class="tl-date">2022</div>
+        <div class="tl-card">
+          <h3>Higher Secondary — Bio-Maths</h3>
+          <h4>Govt Hr Sec School, Thiruppachethi</h4>
+          <p>Completed with a strong foundation in mathematics, structured thinking, and science fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="sec" id="contact">
+  <div class="sec-inner">
+    <div class="eyebrow reveal" style="justify-content:center">Contact</div>
+    <h2 class="sec-title reveal" style="text-align:center">Let's <em>Work Together</em></h2>
+    <p class="reveal" style="text-align:center;color:var(--ink3);font-size:17px;max-width:500px;margin:0 auto 0">Open to full-time roles, internships, and freelance projects where I can learn, build, and grow.</p>
+    <div class="contact-strip stag">
+      <a href="mailto:srinithiperiyasamy007@gmail.com" class="c-card">
+        <div class="c-icon">✉️</div>
+        <div><div class="c-label">Email</div><div class="c-value">srinithiperiyasamy007@gmail.com</div></div>
+      </a>
+      <a href="tel:+919500582023" class="c-card">
+        <div class="c-icon">📞</div>
+        <div><div class="c-label">Phone</div><div class="c-value">+91 9500582023</div></div>
+      </a>
+      <a href="https://www.linkedin.com/in/srinithi-p-9a6188350" target="_blank" class="c-card">
+        <div class="c-icon">💼</div>
+        <div><div class="c-label">LinkedIn</div><div class="c-value">srinithi-p-9a6188350</div></div>
+      </a>
+      <a href="https://github.com/Srinithiperiyasamy" target="_blank" class="c-card">
+        <div class="c-icon">🐙</div>
+        <div><div class="c-label">GitHub</div><div class="c-value">Srinithiperiyasamy</div></div>
+      </a>
+      <a href="https://srinithiperiyasamy.github.io/Srinithi_Protfolio" target="_blank" class="c-card">
+        <div class="c-icon">🌐</div>
+        <div><div class="c-label">Portfolio</div><div class="c-value">Live Portfolio Site</div></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Crafted with ♥ by <span>Srinithi P</span> · Full Stack Developer · 2025</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
